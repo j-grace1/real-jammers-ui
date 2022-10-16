@@ -23,6 +23,10 @@ module.exports = {
       animation: {
         bounce: 'bounce 7s infinite'
       },
+      backgroundImage: {
+        'play': "url('./assets/play.jpeg')",
+        'drum': "url('./assets/drum.jpeg')"
+      },
     },
 
   },
