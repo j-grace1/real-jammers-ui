@@ -28,9 +28,9 @@ const Navbar = () => {
             </div>
             <div className='hidden md:flex pr-4'>
                 <ul className='hidden md:flex text-white'>
-                    <li className='transition delay-150 hover:text-[#1df0db]'>Home</li>
-                    <li className='transition delay-150 hover:text-[#1df0db]'>About</li>
-                    <li className='transition delay-150 hover:text-[#1df0db]'>Features</li>
+                    <li className='transition duration-300 hover:text-[#1df0db]'>Home</li>
+                    <li className='transition duration-300 hover:text-[#1df0db]'>About</li>
+                    <li className='transition duration-300 hover:text-[#1df0db]'>Features</li>
                 </ul>
                 <button className='border-none transition duration-150 bg-transparent hover:bg-transparent hover:text-[#1df0db] text-white mx-6 mr-4'>Sign In</button>
                 <button className='px-8 my-2 h-10'>Sign Up</button>
@@ -45,8 +45,8 @@ const Navbar = () => {
             <li className='border-b-2 border-zinc-300 w-full'>About</li>
             <li className='border-b-2 border-zinc-300 w-full'>Features</li>
             <div className='flex flex-col my-4'>
-                <button className='bg-transparent text-indigo-600 py-3 mb-4'>Sign In</button>
-                <button className='px-8 py-3'>Sign Up</button>
+                <button className='text-black py-3 mb-4'>Sign In</button>
+                <button className='px-8 py-3 text-black hover:bg-[#f1b23bea] duration-300'>Sign Up</button>
             </div>
         </ul>
     </div>
