@@ -9,7 +9,6 @@ const Login = () => {
       <div className='bg-black/80 w-full h-screen px-8 py-3'>
         <img className="w-[240px]" src={Logo} alt="Logo" />
         <LoginInput />
-
         <span className="flex justify-center text-white text-center">© 2022 Real Jammers. All Rights Reserved</span>
       </div>
     </div>
