@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import AOS from 'aos'
 
 import 'aos/dist/aos.css'
@@ -13,7 +14,9 @@ const Hero = () => {
             <div className='flex flex-col justify-center md:items-start py-8' data-aos='fade-up' data-aos-delay='200' data-aos-duration="1500">
                 <h1 className='py-3 text-[45px] text-white font-bold'>Building a World of Music</h1>
                 <h2 className='text-2xl text-[#ffffff99]'>Able to meet talented musicians making music</h2>
-                <button className='py-3 mt-12 sm:w-[60%] bg-[#f1ac3c] transition duration-150 hover:bg-[#76def0] border-none'>Get Started</button>
+                <button className='py-3 mt-12 sm:w-[60%] bg-[#f1ac3c] transition duration-150 hover:bg-[#76def0] border-none'>
+                  <Link to='/register'>Get Started</Link>
+                </button>
             </div>
             <div data-aos='zoom-in' data-aos-delay='200' data-aos-duration="1500">
                 <img className='animate-bounce' src={Icon} alt='Icon' />
