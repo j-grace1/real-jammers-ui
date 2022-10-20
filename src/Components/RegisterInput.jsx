@@ -11,8 +11,8 @@ const RegisterInput = () => {
           <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="text" placeholder='Username' required />
           <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="email" placeholder='Email' />
           <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="password" placeholder='Password' />
-          <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="password" placeholder='Confirm Password' />
-          <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="text" placeholder='Main Instrument' />
+          <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="number" placeholder='How Many Instruments can you Play?' />
+          <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="text" placeholder='Major Instrument' />
           <input className='w-24 mx-32 p-2 px-3 bg-white border border-white outline-none rounded-lg text-black font-semibold hover:bg-[#f1ac3c] hover:text-white duration-300' type="submit" value="Sign Up" />
         </form>
       </div>

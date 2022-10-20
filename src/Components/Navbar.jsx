@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
-import { AiFillCloseCircle } from "react-icons/ai";
+import { AiFillCloseCircle, AiOutlineSearch } from "react-icons/ai";
 
 import Logo from "../assets/logo.png";
 
@@ -35,6 +35,9 @@ const Navbar = () => {
         <div className="hidden md:flex pr-4">
           <ul className="hidden md:flex text-white">
             <li className="transition duration-300 hover:text-[#1df0db]">
+              <AiOutlineSearch className=" w-10 h-6" />
+            </li>
+            <li className="transition duration-300 hover:text-[#1df0db]">
               Home
             </li>
             <li className="transition duration-300 hover:text-[#1df0db]">
@@ -51,12 +54,15 @@ const Navbar = () => {
             <Link to="/register">Sign Up</Link>
           </button>
         </div>
-        <div className="md:hidden" onClick={handleClick}>
-          {!nav ? (
-            <HiMenu className="w-5" />
-          ) : (
-            <AiFillCloseCircle className="w-5" />
-          )}
+        <div className="flex flex-row md:hidden">
+          <AiOutlineSearch className=" w-10 h-6" />
+          <div className="md:hidden" onClick={handleClick}>
+            {!nav ? (
+              <HiMenu className="w-6 h-7" />
+            ) : (
+              <AiFillCloseCircle className="w-6 h-7" />
+            )}
+          </div>
         </div>
       </div>
       <ul className={!nav ? "hidden" : "aboslute bg-zinc-200 w-full px-8 py-3"}>
