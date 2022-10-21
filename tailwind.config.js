@@ -24,7 +24,7 @@ module.exports = {
         bounce: 'bounce 7s infinite'
       },
       backgroundImage: {
-        'drum': "url('./assets/drum.jpeg')"
+        'drum': "url('./assets/drum.jpeg')",
       },
     },
 

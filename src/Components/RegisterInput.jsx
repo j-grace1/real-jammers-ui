@@ -2,21 +2,18 @@ import React from 'react'
 
 const RegisterInput = () => {
   return (
-    <div className='w-[400px] h-[550px] text-white bg-drum bg-cover bg-left bg-fixed rounded-xl box-border shadow-2xl my-5 absolute left-[25%] translate-x-2/4'>
-      <div className='bg-black/80 w-[400px] h-[550px] px-8 rounded-xl'>
-        <h1 className='px-2 py-5 text-center text-[27px]'>Sign Up</h1>
-        <form>
-          <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="text" placeholder='First Name' required />
-          <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="text" placeholder='Last Name' required />
-          <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="text" placeholder='Username' required />
-          <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="email" placeholder='Email' />
-          <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="password" placeholder='Password' />
-          <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="number" placeholder='How Many Instruments can you Play?' />
-          <input className='w-full bg-transparent mb-4 h-10 border-b-2 outline-none' type="text" placeholder='Major Instrument' />
-          <input className='w-24 mx-32 p-2 px-3 bg-white border border-white outline-none rounded-lg text-black font-semibold hover:bg-[#f1ac3c] hover:text-white duration-300' type="submit" value="Sign Up" />
-        </form>
-      </div>
-      <span className="flex justify-center py-2 text-black text-center">© 2022 Real Jammers. All Rights Reserved</span>
+    <div className='flex flex-col justify-center'>
+      <form className='max-w-[400px] w-full mx-auto bg-gray-900 p-8 px-8 rounded-lg'>
+          <h2 className='text-4xl text-white font-bold text-center mb-5'>Sign Up</h2>
+          <input className='flex flex-col w-full text-gray-400 py-2 p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none' type="text" placeholder='First Name' required />
+          <input className='flex flex-col w-full text-gray-400 py-2 p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none' type="text" placeholder='Last Name' required />
+          <input className='flex flex-col w-full text-gray-400 py-2 p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none' type="text" placeholder='Username' required />
+          <input className='flex flex-col w-full text-gray-400 py-2 p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none' type="email" placeholder='Email Address' required />
+          <input className='flex flex-col w-full text-gray-400 py-2 p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none' type="password" placeholder='Password' required />
+          <input className='flex flex-col w-full text-gray-400 py-2 p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none' type="text" placeholder='Your Major Instrument' required />
+          
+          <button className='w-full mt-16 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg'>Sign in</button>
+      </form>
     </div>
   )
 }
