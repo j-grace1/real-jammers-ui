@@ -17,7 +17,7 @@ const Register = () => {
               <Link to='/login'>Sign In</Link>
             </h2>
           </div>
-          <h1 className="text-[25px] lg:text-[40px] font-semibold py-5">WELCOME TO <span className="text-[#f4b04b]">REAL JAMMERS</span> </h1>
+          <h1 className="text-[25px] lg:text-[32px] font-semibold py-5">WELCOME TO <span className="text-[#f4b04b]">REAL JAMMERS</span> </h1>
           <RegisterInput />
           <span>© 2022 Real Jammers. All Rights Reserved</span>
         </div>
