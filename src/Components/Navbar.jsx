@@ -25,7 +25,7 @@ const Navbar = () => {
       className={
         color
           ? "w-screen h-{80px} z-10 bg-[#f1b23bea] fixed drop-shadlow-lg p-3 px-12"
-          : "w-screen h-{80px} z-10 fixed drop-shadlow-lg p-3 px-12"
+          : "w-screen h-{80px} z-10 fixed drop-shadlow-lg p-3 px-7 lg:px-12"
       }
     >
       <div className="flex justify-between items-center w-full h-full">
@@ -73,7 +73,7 @@ const Navbar = () => {
           <button className="text-black py-3 mb-4">
             <Link to="/login">Sign In</Link>
           </button>
-          <button className="px-8 py-3 text-black hover:bg-[#f1b23bea] duration-300">
+          <button className="px-8 py-3 text-black hover:bg-[#f1b23bea] hover:text-white duration-300">
             <Link to="/register">Sign Up</Link>
           </button>
         </div>
