@@ -12,7 +12,7 @@ const RegisterInput = () => {
           <input className='flex flex-col w-full text-gray-400 py-2 p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none' type="password" placeholder='Password' required />
           <input className='flex flex-col w-full text-gray-400 py-2 p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none' type="text" placeholder='Your Major Instrument' required />
           
-          <button className='w-full mt-16 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg'>Sign in</button>
+          <button className='w-full mt-16 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg'>Sign up</button>
       </form>
     </div>
   )

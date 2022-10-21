@@ -5,6 +5,9 @@ const LoginInput = () => {
   return (
     <div className='flex flex-col h-[80vh] justify-center space-y-5'>
         <center>
+            <h2 className='text-white text-3xl font-bold'>Sign In</h2>
+        </center>
+        <center>
             <input className='w-96 p-2 px-3 bg-[#bababa] placeholder:text-[#efefef] border border-white outline-none rounded-lg text-black' type="text" name="" placeholder='Username' />
         </center>
         <center>
