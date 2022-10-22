@@ -29,9 +29,9 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full">
-        <div className="flex items-center">
+        <Link to='/' className="flex items-center">
           <img className="w-[140px]" src={Logo} alt="Logo" />
-        </div>
+        </Link>
         <div className="hidden md:flex pr-4">
           <ul className="hidden md:flex text-white">
             <li className="transition duration-300 hover:text-[#1df0db]">

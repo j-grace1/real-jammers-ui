@@ -11,9 +11,9 @@ const Register = () => {
         </div>
 
         <div className="bg-gray-100 text-center">
-          <div className="flex justify-between items-center p-3">
-            <img className="w-[40%]" src={Logo} alt="Logo" />
-            <h2 className="text-[25px] text-[#f4b04b] font-semibold">
+          <div className="flex justify-between items-center p-2">
+            <Link to='/'> <img className="w-[40%]" src={Logo} alt="Logo" /> </Link>
+            <h2 className="lg:text-[25px] text-[#f4b04b] font-semibold">
               <Link to='/login'>Sign In</Link>
             </h2>
           </div>
